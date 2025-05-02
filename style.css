@@ -254,7 +254,7 @@ margin-top: 10%;
     /* border: 1px solid red; */
     margin-top: 2.5%;
 }
-@media only screen and (max-width:486px){
+@media only screen and (max-width:500px){
 
     .header{
         width: 99%;
@@ -269,7 +269,14 @@ margin-top: 10%;
 width: 98%;
 height: 70vh;
 margin-left: -6%;
-border: 1px solid purple;
+/* border: 1px solid purple; */
+
+}
+.quotes{
+    /* border: 1px solid black; */
+    width: 88%;
+    margin-left: 7%;
+
 }
 .quotes img{
    width: 30%;
@@ -278,10 +285,11 @@ border: 1px solid purple;
 
 }
 .top{
-border: 1px solid blue;
-width: 75%;
-margin-left: 7%;
+/* border: 1px solid blue; */
+width: 85%;
+margin-left: 5%;
 margin-top: -10%;
+border-bottom: none;
 
 }
 .fa-quote-left{
@@ -300,7 +308,7 @@ margin-left: -9%;
 }
 .slider{
 width:450vw ;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 margin-top: 10%;
 gap: 29%;
 margin-left: -55%;
@@ -310,7 +318,10 @@ margin-left: -55%;
     width: 300%;
 }
 .slide{
-width: 50vw;
+width: 300vw;
+/* border: 1px solid black; */
+margin-left: 10%;
+padding-top: 7%;
 
 }
 .book_cover{
@@ -318,8 +329,9 @@ width: 60%;
 height: 40%;
 /* border: 1px solid red; */
 position: absolute;
-top: 50%;
-margin-left: 15%;
+top: 35%;
+margin-left: 18%;
+margin-right: 0%;
 }
 .book_cover img{
 padding-bottom: 30%;
@@ -328,24 +340,33 @@ width: 100%;
 border: none;
 }
 .title_container{
-flex-direction: column;
+flex-direction: column-reverse;
 width: 90%;
 /* border: 1px solid black; */
 height: 1100px;
+padding-left:3% ;
+margin-top: -70%;
 }
 .finding_myself{
 /* border: 1px solid black; */
+margin-top: 25vh;
 }
 .finding_myself img{
 width: 90%;
 margin-left: 5%;
+margin-right: 0%;
 }
 .title_justification{
 width: 95%;
+margin-right: 0%;
 }
 .reflection{
 margin-left: 0%;
-width: 80%;
+width: 85%;
+margin-right: 0%;
+/* border: 1px solid black; */
+border: none;
+margin-top: 10%;
 }
 .question{
 width: 60%;
@@ -359,20 +380,53 @@ height: 100px;
 width: 12%;
 height: 5%;
 margin-top: 8%;
+left: 85%;
 }
 .caged{
     width: 12%;
     height: 5%;
     margin-top: 8%;
 }
-.footer{
-width: 70%;
-margin-left: 0%;
+footer{
+width: 110vw;
+margin-left: -12%;
+display: grid;
 
+p{
+    font-size: 10%;
 }
-.buttons{
-   left: 10vw; 
+h2{
+    font-size: 50%;
 }
+
     
 }
 
+
+@media only screen and (min-width:300px) and (max-width:400px){
+
+  .book_cover{
+     /* border: 1px solid black; */
+    margin-top: 9%;
+    height: 40%;
+    padding-left: 15%;
+  } 
+  .book_cover img{
+    height: 40%;
+    width: 50%;
+  } 
+  .finding_myself{
+    /* border: 1px solid black; */
+    margin-top: 95vw;
+  } 
+}
+.quotes img{
+top: 16%;
+}
+}
+@media only screen and ( min-width:768px) and (max-width:1180){
+    .born_crime{
+        border: 1px solid black;
+    }
+    
+}
