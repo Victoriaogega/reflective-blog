@@ -1,0 +1,378 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+body{
+    margin: 0%;
+}
+ a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+}
+nav{
+    display: flex;
+    gap: 27%;
+    margin-left: 20%;
+}
+
+
+.header{
+    background-image: linear-gradient(rgba(22, 15, 15, 0.8), rgba(0, 0, 0, 0.603)), url(https://media.gettyimages.com/id/577674005/photo/book-shelves.jpg?s=612x612&w=gi&k=20&c=7ZmrY1UtiOpz730zj3kQdTc9ECG_LQP6IexCZZqdRBg=);
+    width: 99.88%;
+    text-align: center;
+    font-family: poppins;
+    border: 1px solid black;
+    /* background-color: black; */
+   color: white;
+}
+.quotes img{
+ position: absolute;
+width: 15%;
+height: 15%;
+left: 30%;
+}
+
+.born_crime{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 70%;
+    margin-left: 12%;
+}
+.quotes{
+    margin-top: 5%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    height: 60%;
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 8%;
+    border-bottom: 3px dotted blue;
+} 
+.fa-quote-left{
+    margin-bottom: 1%;
+    position: absolute;
+    left: 2%;
+    font-size: 100%;
+}
+ .fa-quote-right{
+   margin-top: 4%; 
+   right: 25%;
+   position: absolute;
+   color: rgb(239, 97, 45);
+   font-size: 200%;
+} 
+.container{
+     display: flex;
+    align-items: center; 
+     gap: 1px; 
+
+}
+
+.arrow{
+    display: flex; 
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    /* background-color: black;  */
+  
+}
+.frame{
+    width: 600px;
+    height: 400px;
+    overflow: hidden; 
+    /* border: 1px solid black;  */
+}
+.slider{
+    display: flex;
+    width: 75vw;
+    transition: all 1s ease;
+  gap: 40%;
+  margin-left: 15%;
+  /* border: 1px solid red; */
+}
+.slide p{
+    font-size: 90%;
+    width: 400px;
+    height: 20%;
+    margin-top: 20%; 
+    font-family: poppins; 
+}
+.slide{
+    width: 50vm;
+   padding-top: 5%;
+ 
+}
+.slide p{
+    text-align: center;
+    padding-top: 20%;
+}
+.text{
+    width: 100%;
+    height: 100%;
+   
+}
+.book_cover{
+width: 100%;
+margin-top: 1%;
+}
+.book_cover img{
+  height: 84%;
+  width: 90%;  
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.title_container{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 5%;
+    /* margin-bottom: 0%; */
+    /* border: 1px solid greenyellow; */
+    /* width: 100%; */
+    width: 100%;
+    gap: 5%;
+}
+.finding_myself{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 6%;
+    /* align-content: center; */
+   
+    
+    /* margin-left: 10%; */
+}
+.finding_myself img{
+height:90% ;
+width: 90%;
+margin-left: 29%;
+margin-top: 10%;
+}
+.title_justification{
+    /* border: 1px solid black; */
+    padding: 3%;
+    height: 400px;
+    width: 150%;
+   padding-right: 10%;
+   font-family: poppins;
+   font-size: 86%;
+}
+
+
+.reflection{
+   border: 1px solid black;
+   width: 70%;
+   font-family: poppins;
+   font-size: 90%;
+   margin: auto;
+   padding-left: 5%;
+   padding-right: 5%;
+   border-radius: 1vw;
+   padding-bottom: 2%;
+   margin-top: 5%;
+    
+}
+.question{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: poppins;
+    font-size: 100%;
+    padding: 1%;
+    padding-left: 5%;
+    border-radius: 1vw;
+    background-color: burlywood;
+}
+.woman_cage{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    left: 75%;
+    margin-top: 3%;
+    border-radius: 5vw;
+}
+.caged{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    border-radius: 10vw;
+    margin-top: 3%;
+    border: 1px solid black;
+   
+}
+.footer {
+    margin: auto;
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(22, 15, 15, 0.8), rgba(0, 0, 0, 0.603)), url(https://media.gettyimages.com/id/577674005/photo/book-shelves.jpg?s=612x612&w=gi&k=20&c=7ZmrY1UtiOpz730zj3kQdTc9ECG_LQP6IexCZZqdRBg=);
+    height: 150px;
+    width: 82%;
+    display: flex;
+    color: white;
+    gap: 10%;
+    line-height: 1.2;
+    padding: 3%;
+    padding-left: 15%;
+
+    h2 {
+        margin-bottom: 3%;
+    }
+}
+
+.footer-detail {
+    display: inline;
+}
+
+.footer {
+    p {
+        line-height: 0.5;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.read_book{
+    width: 100%;
+    height: 50%; 
+}
+.group_review{
+    width: 100%;
+    height: 50%; 
+}
+.buttons{
+    display: grid;
+    /* border: 1px solid red; */
+    margin-top: 2.5%;
+}
+@media only screen and (max-width:486px){
+
+    .header{
+        width: 99%;
+    }
+    nav{
+        font-size: 62%;
+        margin-left: 0%;
+        /* border: 1px solid red; */
+    }
+.born_crime{
+    display: grid;
+width: 98%;
+height: 70vh;
+margin-left: -6%;
+border: 1px solid purple;
+}
+.quotes img{
+   width: 30%;
+   height: 10%; 
+   padding-top: 2%;
+
+}
+.top{
+border: 1px solid blue;
+width: 75%;
+margin-left: 7%;
+margin-top: -10%;
+
+}
+.fa-quote-left{
+
+}
+.container{
+
+}
+.arrow{
+
+}
+.frame{
+/* border: 1px solid black; */
+width: 350px;
+margin-left: -9%;
+}
+.slider{
+width:450vw ;
+    border: 1px solid red;
+margin-top: 10%;
+gap: 29%;
+margin-left: -55%;
+}
+.slide p{
+    font-size: 60%;
+    width: 300%;
+}
+.slide{
+width: 50vw;
+
+}
+.book_cover{
+width: 60%;
+height: 40%;
+/* border: 1px solid red; */
+position: absolute;
+top: 50%;
+margin-left: 15%;
+}
+.book_cover img{
+padding-bottom: 30%;
+height: 70%;
+width: 100%;
+border: none;
+}
+.title_container{
+flex-direction: column;
+width: 90%;
+/* border: 1px solid black; */
+height: 1100px;
+}
+.finding_myself{
+/* border: 1px solid black; */
+}
+.finding_myself img{
+width: 90%;
+margin-left: 5%;
+}
+.title_justification{
+width: 95%;
+}
+.reflection{
+margin-left: 0%;
+width: 80%;
+}
+.question{
+width: 60%;
+height: 100px;
+
+}
+.question p {
+    font-size: 60%;
+}
+.woman_cage{
+width: 12%;
+height: 5%;
+margin-top: 8%;
+}
+.caged{
+    width: 12%;
+    height: 5%;
+    margin-top: 8%;
+}
+.footer{
+width: 70%;
+margin-left: 0%;
+
+}
+.buttons{
+   left: 10vw; 
+}
+    
+}
+
