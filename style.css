@@ -449,9 +449,95 @@ width: 13%;
     }
     
 }
+@media only  screen and (max-width:914px) and (min-width:412px){
+    .header{
+        width: 105vw;
+    }
+    .footer{
+        width: 100vw;
+    }
+    .title_justification{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .reflection{
+        width: 95%;
+        border: 1px solid black;
+    }
+    .woman_cage{
+        left: 93%;
+    }
+}
+@media only screen and (max-width:1280px) and (min-width:853px){
+    .reflection{
+        margin-top: -15%;
+    }
+}
 
 
-@media only screen and (min-width:1024px) and (max-width:1366px){
+@media only screen and (max-width:1280px) and (min-width:800px) {
+    .book_cover{
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    .book_cover img{
+        width: 20vw;
+    }
+    .reflection{
+        margin-top: -9%;
+        width: 80%;
+    }
+    .finding_myself {
+        margin-top: 8%;
+    }
+    .finding_myself img{
+        height: 40vh;
+    }
+    .caged{
+        height: 15%;
+    }
+    .woman_cage{
+        height: 15%;
+    }
+} 
+
+ /* @media only screen and (min-width:912px) and (max-width:1368px) {
+
+ .reflection{
+    margin-top: -20%;
+ }
+ .book_cover img{
+width: 70%;
+ }
+ .book_cover{
+    margin-left: -6%;
+ }
+    
+} */
+/* @media only screen and (max-width:1024px) and (min-width:600px) {
+    .reflection{
+        margin-top: -7%;
+    }
+    .caged{
+height: 15%;
+    }
+    .woman_cage{
+        height: 15%;
+    }
+    .finding_myself{
+        margin-top: 10%;
+    }
+    .finding_myself img{
+        height: 40vw;
+    }
+    .quotes img{
+        position: absolute;
+        top: 35%;
+    }
+}  */
+
+
+/* @media only screen and (min-width:1024px) and (max-width:1366px){
    
   .frame{
    
@@ -472,4 +558,5 @@ width: 13%;
     margin-bottom: 20%;
   }
     
-}
+} */
+
