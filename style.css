@@ -449,7 +449,7 @@ width: 13%;
     }
     
 }
-@media only  screen and (max-width:914px) and (min-width:412px){
+/* @media only  screen and (max-width:914px) and (min-width:412px){
     .header{
         width: 105vw;
     }
@@ -501,7 +501,7 @@ width: 13%;
     }
 } 
 
- /* @media only screen and (min-width:912px) and (max-width:1368px) {
+  @media only screen and (min-width:912px) and (max-width:1368px) {
 
  .reflection{
     margin-top: -20%;
@@ -513,7 +513,7 @@ width: 70%;
     margin-left: -6%;
  }
     
-} */
+}  */
 /* @media only screen and (max-width:1024px) and (min-width:600px) {
     .reflection{
         margin-top: -7%;
