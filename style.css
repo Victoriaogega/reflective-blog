@@ -451,17 +451,25 @@ width: 13%;
 }
 
 
-@media only screen and (min-width:600px) and (max_width:1024px){
+@media only screen and (min-width:1024px) and (max-width:1366px){
    
   .frame{
-    border: 1px solid red;
+   
   }
   .title_container{
-    border: 1px solid red;
-    width: 50%;
+ padding-bottom: 0%;
   }
-  .born_crime{
-    border: 1px solid red;
+  .reflection{
+    margin-top: -15%;
+  }
+  .book_cover img{
+    width: 60%;
+  }
+  .book_cover{
+    margin-left: -5%;
+  }
+  .finding_myself{
+    margin-bottom: 20%;
   }
     
 }
